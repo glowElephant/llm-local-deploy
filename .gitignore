@@ -192,3 +192,22 @@ cython_debug/
 #  refer to https://docs.cursor.com/context/ignore-files
 .cursorignore
 .cursorindexingignore
+
+
+# 환경
+venv/
+.llm-env/
+
+# Hugging Face 캐시
+~/.cache/huggingface/
+
+# 모델 가중치 (Git LFS 혹은 DVC로 관리)
+*.bin
+*.pt
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
